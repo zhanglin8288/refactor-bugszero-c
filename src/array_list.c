@@ -1,5 +1,6 @@
 #include <string.h>
 #include "array_list.h"
+#include <stdlib.h>
 
 ArrayList *newArrayList() {
     ArrayList *pList = (ArrayList *) malloc(sizeof(ArrayList));
